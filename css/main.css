@@ -1772,6 +1772,12 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    min-height: 145svh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
   .titulo {
     top: 1rem;
     right: 1rem;
@@ -1804,6 +1810,10 @@ body {
 }
 
 @media screen and (max-width: 420px) {
+  body {
+    min-height: 155svh;
+  }
+
   .titulo {
     max-height: 45svh;
     font-size: 0.88rem;
