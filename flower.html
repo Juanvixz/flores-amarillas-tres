@@ -9,12 +9,71 @@
     <title>Flower</title>
   </head>
   <body class="container">
-    <audio src="sound/ChristianBasso&HaienQiu-Flowers.mp3" autoplay></audio>
+    <audio id="background-music" src="sound/ChristianBasso&HaienQiu-Flowers.mp3" loop></audio>
+    <div class="experience-controls">
+      <button class="music-button" type="button" aria-label="Reproducir música">
+        <span class="music-button__icon" aria-hidden="true">♫</span>
+        <span class="music-button__label">Música</span>
+      </button>
+      <button class="surprise-button" type="button" aria-expanded="false">
+        <span aria-hidden="true">💌</span> Sorpresa
+      </button>
+    </div>
+    <div class="emoji-decor" aria-hidden="true">
+      <span class="emoji emoji--koala emoji--one">🐨</span>
+      <span class="emoji emoji--heart emoji--two">🩶</span>
+      <span class="emoji emoji--heart emoji--three">🩶</span>
+      <span class="emoji emoji--koala emoji--four">🐨</span>
+      <span class="emoji emoji--heart emoji--five">🩶</span>
+      <span class="emoji emoji--heart emoji--six">🩶</span>
+      <span class="emoji emoji--koala emoji--seven">🐨</span>
+      <span class="emoji emoji--heart emoji--eight">🩶</span>
+      <span class="emoji emoji--koala emoji--nine">🐨</span>
+      <span class="emoji emoji--sparkle emoji--ten">✨</span>
+      <span class="emoji emoji--sparkle emoji--eleven">✦</span>
+      <span class="emoji emoji--heart emoji--twelve">🩶</span>
+      <span class="emoji emoji--koala emoji--thirteen">🐨</span>
+      <span class="emoji emoji--sparkle emoji--fourteen">🌼</span>
+      <span class="emoji emoji--heart emoji--fifteen">🩶</span>
+      <span class="emoji emoji--koala emoji--sixteen">🐨</span>
+      <span class="emoji emoji--heart emoji--seventeen">🩶</span>
+      <span class="emoji emoji--koala emoji--eighteen">🐨</span>
+      <span class="emoji emoji--sparkle emoji--nineteen">✨</span>
+      <span class="emoji emoji--heart emoji--twenty">🩶</span>
+      <span class="emoji emoji--koala emoji--twenty-one">🐨</span>
+      <span class="emoji emoji--heart emoji--twenty-two">🩶</span>
+      <span class="emoji emoji--sparkle emoji--twenty-three">✦</span>
+      <span class="emoji emoji--heart emoji--twenty-four">🩶</span>
+      <span class="emoji emoji--koala emoji--twenty-five">🐨</span>
+      <span class="emoji emoji--sparkle emoji--twenty-six">🌼</span>
+    </div>
     <div id="lyrics">
      
     </div>
-    <h1 class="titulo">Estas flores amarillas son un reflejo de la alegría que traes a mi vida. <br> <br>
-      Gracias por iluminar mis días con tu presencia.</h1>
+    <h1 class="titulo">
+      <span class="titulo__eyebrow">Para ti</span>
+      <span class="titulo__message">Estas flores amarillas son un reflejo de la alegría que traes a mi vida.</span>
+      <span class="titulo__message">Mi amor, mi hermosa koalita, estas flores son solo un pequeño reflejo de toda la alegría y paz que traes a mi vida cada día.</span>
+      <span class="titulo__message">Gracias por iluminar mis días con tu presencia, por tu sonrisa y por ser mi lugar seguro en todo momento.</span>
+      <span class="titulo__message">Sabes que te amo muchísimo. No podía dejarte sin tus flores amarillas para recordarte lo especial que eres para mí.</span>
+      <span class="titulo__message">Te dedico este detalle con todo mi corazón. Después será un ramo de verdad, tan brillante y precioso como tú.</span>
+    </h1>
+    <div class="surprise-message" aria-hidden="true">
+      <span class="surprise-message__emoji" aria-hidden="true">🐨🩶</span>
+      <div class="memory-gallery">
+        <figure class="memory-card">
+          <img src="img/koalita.jpg" alt="Un recuerdo bonito de ella" />
+          <figcaption>Un recuerdo de tu sonrisa</figcaption>
+        </figure>
+        <figure class="memory-card">
+          <img src="img/nosotroa.jpg" alt="Los dos juntos en un viaje" />
+          <figcaption>Juntos, haciendo recuerdos</figcaption>
+        </figure>
+      </div>
+      <p>Mi lugar favorito siempre será donde estés tú.</p>
+      <button class="surprise-close" type="button">Cerrar</button>
+    </div>
+    <div class="petals" aria-hidden="true"></div>
   
     <div class="night"></div>
     <div class="flowers">
