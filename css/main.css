@@ -1778,7 +1778,7 @@ body {
     left: 1rem;
     width: auto;
     transform: none;
-    max-height: min(52svh, 29rem);
+    max-height: min(45svh, 25rem);
     padding: 1rem;
     font-size: clamp(0.9rem, 3.5vw, 1.08rem);
     line-height: 1.35;
@@ -1799,13 +1799,13 @@ body {
   }
 
   .flowers {
-    transform: translateX(-3vw) scale(0.95);
+    transform: translate(-3vw, 8vh) scale(0.78);
   }
 }
 
 @media screen and (max-width: 420px) {
   .titulo {
-    max-height: 55svh;
+    max-height: 45svh;
     font-size: 0.88rem;
   }
 
